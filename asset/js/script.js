@@ -3,7 +3,7 @@ function Send() {
 	let email = $("#comment_email").val();
 	let message = $("#comment_text").val();
 	const new_message = new Commentsvalid(name, email, message);
-	if( new_message.isValidMessage(message) === true || new_message.isEmptyName(name) || isValidEmailAddress(email) ) {
+	if( new_message.isValidMessage() === true && new_message.isNotEmptyName() === true && new_message.isValidEmail() === true ) {
 		$.post("",  
 		{
 			act: "send",         
