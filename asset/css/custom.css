@@ -1,0 +1,8 @@
+.custom-height25 {padding-top: 25px;}
+.gy-2 {border-bottom: 1px dashed blue;}
+.custom-center {text-align: center;}
+.breakall {word-break: break-word !important; overflow-wrap: break-word !important;}
+#toTop {width:150px;background:#ddd;border:1px solid #ccc;text-align:center;
+padding:5px;cursor:pointer;color:#666;text-decoration:none;
+/*position:fixed;bottom:10px;right:10px;*/
+}
